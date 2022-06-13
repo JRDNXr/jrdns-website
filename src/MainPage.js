@@ -17,7 +17,7 @@ function App() {
         <p>Coming soon...</p>
       </body>
       <footer>
-        <p>&copy;2022 JRDN D'Souza</p>
+        <p>&copy;2022 JRDN D'Souza. Made with <a href="cookies" id="no-underline-size-up">&#127850;</a></p>
       </footer>
     </div>
   );
