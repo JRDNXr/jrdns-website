@@ -1,5 +1,5 @@
 import {Link, Outlet} from "react-router-dom";
-import './App.css';
+import './MainPage.css';
 
 function App() {
   return (
@@ -13,6 +13,12 @@ function App() {
           <Outlet/>
         </nav>
       </header>
+      <body>
+        <p>Coming soon...</p>
+      </body>
+      <footer>
+        <p>&copy;2022 JRDN D'Souza</p>
+      </footer>
     </div>
   );
 }
