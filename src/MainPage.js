@@ -10,10 +10,10 @@ function App() {
           {" | "}
           <Link to="about-me">ABOUT ME</Link>
           <h1>MAIN PAGE</h1>
-          <Outlet/>
         </nav>
       </header>
       <body>
+        <Outlet/>
         <p>Coming soon...</p>
       </body>
       <footer>
