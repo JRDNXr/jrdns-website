@@ -3,9 +3,10 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './MainPage';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import MainPage from "./pages/MainPage";
 import AboutMe from "./pages/AboutMe";
 import Cookies from "./pages/Cookies";
 import PageNotFound404 from "./pages/PageNotFound404";
@@ -19,6 +20,7 @@ root.render(
           <Route path="about-me" element={<AboutMe/>}/>
           <Route path="cookies" element={<Cookies/>}/>
           <Route path="*" element={<PageNotFound404/>}/>
+          <Route index element={<MainPage/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
