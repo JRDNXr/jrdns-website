@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <nav>
+        <nav className="navbar">
           <Link to="/">HOME</Link>
           {" | "}
           <Link to="about-me">ABOUT ME</Link>
