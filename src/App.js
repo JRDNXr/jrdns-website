@@ -15,7 +15,7 @@ function App() {
         <Outlet/>
       </body>
       <footer>
-        <p>&copy;2022 JRDN D'Souza. Made with <a href="cookies" id="no-underline-size-up">&#127850;</a></p>
+        <p>&copy;2023 JRDN D'Souza. Made with <a href="cookies" id="no-underline-size-up">&#127850;</a></p>
       </footer>
     </div>
   );
