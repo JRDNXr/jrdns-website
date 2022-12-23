@@ -1,6 +1,8 @@
 import {Link, Outlet} from "react-router-dom";
 import './App.css';
 
+import MainPage from "./pages/MainPage";
+
 function App() {
   return (
     <div className="App">
@@ -12,7 +14,7 @@ function App() {
         </nav>
       </header>
       <body>
-        <Outlet/>
+          <MainPage/>
       </body>
       <footer>
         <p>&copy;2023 JRDN D'Souza. Made with <a href="cookies" id="no-underline-size-up">&#127850;</a></p>

@@ -13,19 +13,13 @@ const MainPage = () => {
                     </div>
                     <div class="right-header">
                         <h1 class="name">
-                            Hi, I'm <span>Jordan D'souza. </span>
+                            Hi, I'm <span>Jordan D'Souza. </span>
                             A Computer Programmer.
                         </h1>
                         <p>
                             I'm a Computer Programer and I love to create things that help to benefit everyone!
                             My goal is 
                         </p>
-                        <div class="btn-con">
-                            <a href="" class="main-btn">
-                                <span class="btn-text">Download CV</span>
-                                <span class="btn-icon"><i class="fas fa-download"></i></span>
-                            </a>
-                        </div>
                     </div>
                 </div>
             </header>
