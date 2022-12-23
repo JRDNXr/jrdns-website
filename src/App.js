@@ -6,13 +6,13 @@ import MainPage from "./pages/MainPage";
 function App() {
   return (
     <div className="App">
-      <header>
+      {/* <header>
         <nav className="navbar">
           <Link to="/">HOME</Link>
           {" | "}
           <Link to="about-me">ABOUT ME</Link>
         </nav>
-      </header>
+      </header> */}
       <body>
           <MainPage/>
       </body>
