@@ -8,7 +8,7 @@ const MainPage = () => {
                     <div class="left-header">
                         <div class="h-shape"></div>
                         <div class="image">
-                            <img src="img/hero.png" alt=""/>
+                            <img src="../../assets/profilePic.jpg" alt="P"/>
                         </div>
                     </div>
                     <div class="right-header">
@@ -17,8 +17,7 @@ const MainPage = () => {
                             A Computer Programmer.
                         </h1>
                         <p>
-                            I'm a Computer Programer and I love to create things that help to benefit everyone!
-                            My goal is 
+                            DESCRIPTION.
                         </p>
                     </div>
                 </div>
@@ -526,7 +525,7 @@ const MainPage = () => {
                 <div class="control active-btn" data-id="home" >
                     <i class="fas fa-home"></i>
                 </div>
-                <div class="control" data-id="about">
+                <div class="control" data-id="about-me">
                     <i class="fas fa-user"></i>
                 </div>
                 <div class="control" data-id="portfolio">
